@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #250057;
+}
+.inputbox{
+    background: #fff;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 300px auto;
+    display: flex;
+    align-items: center;
+}
+.inputbox input{
+    width: 100%;
+    padding: 10px 0;
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+    color: #555;
+}
+.inputbox img{
+    width: 35px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px){
+    .inputbox{
+    max-width: 350px;
+    padding: 10px 20px;
+    margin: 200px auto;
+    
+}
+.inputbox input{
+    width: 100%;
+    padding: 10px 0;
+    color: #000;
+    font-size: 20px;
+}
+    
+.inputbox img{
+    width: 25px;
+}
+}
